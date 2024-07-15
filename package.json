@@ -1,0 +1,32 @@
+{
+  "name": "vesting-claim-swap",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@bleu/ui": "^0.1.124",
+    "@cowprotocol/app-data": "^2.1.0",
+    "@cowprotocol/contracts": "^1.6.0",
+    "@tanstack/react-query": "5.51.1",
+    "next": "14.2.5",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "viem": "latest",
+    "wagmi": "latest"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.10",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@wagmi/cli": "latest",
+    "bufferutil": "^4.0.8",
+    "encoding": "^0.1.13",
+    "typescript": "^5.5.3",
+    "utf-8-validate": "^6.0.4"
+  }
+}
